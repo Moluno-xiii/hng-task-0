@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+  </head>
+
+  <body class="scroll-bar">
+    <div class="container">
+      <img
+        src="/images/profile-image.png"
+        data-testid="profilePicture"
+        alt="Profile Picture"
+        id="myImage"
+        height="400px"
+      />
+
+      <h1 data-testid="fullName">Moluno Chukwuemeke Progress</h1>
+      <p data-testid="jobTitle">Fullstack Engineer</p>
+
+      <div>
+        <span class="text">Short bio about myself</span>
+        <p data-testid="shortBio">
+          I'm a skilled s a frontend developer who works with React, TypeScript,
+          and Tailwind CSS. I enjoy building clean and user-friendly web
+          applications. My focus is on making websites look good and work well.
+          I also keep up with new tools and updates in web development. Outside
+          of coding, I love music and movies, always exploring different styles.
+          I are also a big fan of football and basketball, following games and
+          enjoying the excitement of sports.
+        </p>
+      </div>
+
+      <span data-testid="currentLocation">
+        Current city and country : Benin city, Nigeria.
+      </span>
+      <div class="email-container">
+        <span>My professional email :</span>
+        <a data-testid="emailiAddress" href="mailto:molunoprogress@gmail.com"
+          >molunoprogress@gmail.com</a
+        >
+      </div>
+
+      <ul data-testid="socialLinks" class="social-links">
+        <li>
+          <a
+            href="http://github.com/moluno-xiii"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Github</a
+          >
+          <a
+            href="http://x.com/moluno_cp"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitter</a
+          >
+        </li>
+      </ul>
+
+      <div data-testid="currentTimeUTC"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

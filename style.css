@@ -14,18 +14,15 @@ body {
   background-color: #005d47;
   color: #005d47;
 }
+
 .container {
   text-align: center;
   padding: 20px;
   border-radius: 10px;
   background-color: white;
-  /* background-color: #f4f5f0; */
+  max-width: 700px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* img {
-    max-width: 100%;
-    height: auto;
-  } */
 
 ul {
   list-style: none;
@@ -41,17 +38,21 @@ a {
   text-decoration: none;
   color: #6ea1d4;
 }
+
 a:hover {
   color: #6ea1d480;
 }
+
 .text {
   margin-bottom: 0px;
   font-weight: 600;
   font-size: 20px;
 }
+
 h1 {
   font-size: 20px;
 }
+
 .social-links {
   margin-top: 20px;
 }
